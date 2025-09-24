@@ -58,6 +58,11 @@ if [ -f "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
   source "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 fi
 
+# inicia com terminal
+# if [ "$TERM" = "xterm-kitty" ]; then
+#     fastfetch
+# fi
+
 # --- Troubleshooting rápido
 # 1) Se o compinit reclamar de "insecure directories": execute
 #      compaudit
