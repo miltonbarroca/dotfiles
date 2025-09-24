@@ -1,13 +1,24 @@
-Apos clonar repo, rodar:
+# Dotfiles – Manjaro Linux
 
+Este repositório centraliza todas as customizações e scripts para Manjaro Linux.  
+Todos os scripts, configurações do terminal, Fastfetch e Zsh são mantidos centralizados no dotfiles.
+
+---
+
+## Instalação e Setup
+
+Após clonar o repositório, rode:
+
+```bash
 cd ~/dotfiles
 ./setup.sh
 
-ativar o venv:
+Ativar o venv (se necessário):
+
 source venv/bin/activate
 
-# Em scripts, o nome do arquivo sera o sym!
+Nota: Nos scripts, o nome do arquivo será o symlink para executá-los diretamente.
 
-atualiza os submodulos:
+Atualizar os submódulos:
 
 git submodule update --remote --merge

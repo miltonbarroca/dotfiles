@@ -1,16 +1,20 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  
+  "logo": {
+    "type": "file",
+    "source": "/home/kryp/dotfiles/fastfetch/logo.txt",
+    "color": {
+      "1": "green"  // Cor para a primeira parte da logo
+    }
+  },
+
   "modules": [
     {
       "type": "title",
       "key": "User",
       "format": "{user-name}"
     },
-    // {
-    //   "type": "title",
-    //   "key": "Hostname",
-    //   "format": "{host-name}"
-    // },
     {
       "type": "host",
       "key": "Model"
