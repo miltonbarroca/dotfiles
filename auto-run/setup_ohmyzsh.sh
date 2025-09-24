@@ -1,4 +1,4 @@
-!/usr/bin/env zsh
+#!/usr/bin/env zsh
 
 echo "Verificando Oh My Zsh..."
 
@@ -9,11 +9,13 @@ else
     echo "Oh My Zsh já está instalado."
 fi
 
-Configura tema "refined"
-if grep -q '^ZSH_THEME=' ~/.zshrc; then
-    sed -i 's/^ZSH_THEME=.*/ZSH_THEME="refined"/' ~/.zshrc
-else
-    echo 'ZSH_THEME="refined"' >> ~/.zshrc
-fi
+echo "Oh My Zsh configurado."
 
-echo "Oh My Zsh configurado com tema 'refined'."
+# Configura tema "refined"
+# if grep -q '^ZSH_THEME=' ~/.zshrc; then
+#     sed -i 's/^ZSH_THEME=.*/ZSH_THEME="refined"/' ~/.zshrc
+# else
+#     echo 'ZSH_THEME="refined"' >> ~/.zshrc
+# fi
+
+# echo "Oh My Zsh configurado com tema 'refined'."
