@@ -1,7 +1,6 @@
 # Dotfiles – Manjaro Linux
 
-Este repositório centraliza todas as customizações e scripts para Manjaro Linux.  
-Todos os scripts, configurações do terminal, Fastfetch e Zsh são mantidos centralizados no dotfiles.
+Este repositório centraliza todas minhas customizações e scripts para Manjaro Linux.  
 
 ---
 
