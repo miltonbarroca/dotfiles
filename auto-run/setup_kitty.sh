@@ -7,7 +7,7 @@ if ! command -v   &> /dev/null; then
     echo "Alacritty não encontrado. Instalando..."
     sudo pacman -S --noconfirm alacritty
 else
-    echo "Kitty já está instalado."
+    echo "alacritty já está instalado."
 fi
 
 # Opcional: criar alias para facilitar
