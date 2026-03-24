@@ -1,15 +1,15 @@
 #!/bin/bash
 
-echo "Instalando o terminal Kitty..."
+echo "Instalando o terminal..."
 
 # Verifica se Kitty já está instalado
-if ! command -v kitty &> /dev/null; then
-    echo "Kitty não encontrado. Instalando..."
-    sudo pacman -S --noconfirm kitty
+if ! command -v   &> /dev/null; then
+    echo "Alacritty não encontrado. Instalando..."
+    sudo pacman -S --noconfirm alacritty
 else
     echo "Kitty já está instalado."
 fi
 
 # Opcional: criar alias para facilitar
-echo "alias term='kitty'" >> ~/.bashrc
-echo "Kitty instalado e alias 'term' criado. Use 'term' para abrir o terminal."
+echo "alias term='alacritty'" >> ~/.bashrc
+echo "alacritty instalado e alias 'term' criado. Use 'term' para abrir o terminal."
