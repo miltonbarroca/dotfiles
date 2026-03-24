@@ -3,7 +3,7 @@
   
   "logo": {
     "type": "file",
-    "source": "/home/kryp/dotfiles/fastfetch/logo.txt",
+    "source": "/home/morgoth/Projetos/dotfiles/fastfetch/logo.txt",
     "color": {
       "1": "green"  // Cor para a primeira parte da logo
     }
