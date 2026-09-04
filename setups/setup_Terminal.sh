@@ -19,8 +19,9 @@ ln -sf "$HOME/Projetos/dotfiles/fastfetch/config.jsonc" ~/.config/fastfetch/conf
 
 # Config do Alacritty
 mkdir -p ~/.config/alacritty
-[ -f ~/.config/alacritty/alacritty.toml ] || cat << 'EOF' > ~/.config/alacritty/alacritty.toml
-[terminal.shell]
-program = "/bin/zsh"
-args = ["-l"]
-EOF
+if [ -f ~/.config/alacritty/alacritty.toml ]; then
+    echo "alacritty.toml já existe, mantendo."
+else
+    cp "$HOME/Projetos/dotfiles/alacritty.toml" ~/.config/alacritty/alacritty.toml
+    echo "alacritty.toml criado a partir do dotfiles."
+fi

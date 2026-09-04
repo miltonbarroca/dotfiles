@@ -16,6 +16,7 @@ sudo pacman -Rns --noconfirm \
     gnome-connections \
     gnome-remote-desktop \
     gnome-user-share \
-    gnome-user-docs
+    gnome-user-docs \
+    simple-scan
 
 echo "Bloat removido."

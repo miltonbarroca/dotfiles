@@ -5,7 +5,7 @@
     "type": "file",
     "source": "/home/morgoth/Projetos/dotfiles/fastfetch/logo.txt",
     "color": {
-      "1": "green"  // Cor para a primeira parte da logo
+      "1": "green"
     }
   },
 
